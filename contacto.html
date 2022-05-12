@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Contacto</title>
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&family=Lato:
+wght@400;700;900&family=Playfair+Display:wght@700&family=Raleway:wght@400;700;900&family=Staatliches&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./css/style.css">
+
+
+</head>
+<body>
+    <header>
+        <h1 class="nombre-sitio">Tienda <span>Muebles</span></h1>
+    </header>
+
+    <div class="container-navegacion">
+        <nav class="nav-principal container">
+            <a href="index.html">Inicio </a>
+            <a href="nosotros.html">Nosotros </a>
+            <a href="tienda.html">Tienda </a>
+            <a href="blog.html">BLOG </a>
+            <a href="galeria.html">Galeria </a>
+            <a href="contacto.html">Contacto </a>
+        </nav>
+    </div>
+    
+
+    
+
+    <main class="contenido-principal container">
+        <h2 class="text-center">Contacto</h2>
+        <form class="formulario">
+            <fieldset>
+                <legend>Tus Datos</legend>
+                    <div>
+                        <label for="nombre">Nombre: </label>
+                        <input id="nombre" type="text" placeholder="Coloca Nombre" required>
+                    </div>
+                    <div>
+                        <label   label for="asunto">Asunto: </label>
+                        <input id="asunto" type="text" placeholder="Tu Asunto">
+                    </div>
+                    <div>
+                        <label for="correo">Correo: </label>
+                        <input id="correo" type="email" placeholder="Añade un correo">
+                    </div>
+                    <div>
+                        <label for="tel">Telefono: </label>
+                        <input id="tel" type="tel" placeholder="Tu Telefono">
+                    </div>
+                    <div>
+                        <label for="tel">Mensaje: </label>
+                        <textarea name="" id="" cols="30" rows="10"></textarea>
+                    </div>
+            </fieldset>
+            
+            <fieldset>
+                <legend>PAIS</legend>
+                <div class="campo">
+                    <label for="pais">Pais</label>
+                    <select name="" id="">
+                        <option >---SELECCIONE---</option>
+                        <option >CR</option>
+                        <option >MX</option>
+                        <option >USA</option>
+                        <option >COL</option>
+                    </select>
+                </div>
+
+
+            </fieldset>
+            <fieldset>
+                <legend>Informacion Extra</legend>
+                <div class="campo">
+                    <label for="cliente">Cliente: </label>
+                    <input id="cliente" type="radio" name="tipo" >
+                </div>
+                <div class="campo">
+                    <label for="proveedor">Proveedor: </label>
+                    <input id="proveedor" type="radio" name="tipo" >
+                </div>
+                <div class="campo">
+                    <label for="categoria">Categoria Interes: </label>
+                    <input list="categorias" name="categorias">
+                    <datalist id="categorias">
+                        <option value="Cocina"/>
+                        <option value="Exterior"/>
+                        <option value="Recamara"/>
+                        <option value="Oficina"/>
+                        <option value="Television"/>
+                    </datalist>
+                </div>
+
+
+            </fieldset>
+
+
+            <input type="submit" value="Enviar Fromulario">
+        </form>
+    </main>
+
+
+    
+
+    <footer class="site-footer">
+        <div class="grid-footer container">
+            <div >
+                <h3>CATEGORIAS</h3>
+                <nav class="footer-menu">
+                    <a href="#">Cocina</a>
+                    <a href="#">Oficina</a>
+                    <a href="#">Jardin</a>
+                    <a href="#">Cocheras</a>
+                    <a href="#">Dormitorios</a>
+
+                </nav>
+            </div>
+            <div>
+                <h3>NOSOTROS</h3>
+                <nav class="footer-menu">
+                    <a href="#">Nuestra Historia</a>
+                    <a href="#">Mision, Vision</a>
+                    <a href="#">Carreras</a>
+                    <a href="#">Poliicas de Privacidad</a>
+                    <a href="#">Terminos de Servicio</a>
+
+                </nav>
+            </div>
+            <div>
+                <h3>SOPORTE</h3>
+                <nav class="footer-menu">
+                    <a href="#">Preguntas Frecuentes</a>
+                    <a href="#">Ayuda en Linea</a>
+                    <a href="#">Confianza y Seguridad</a>
+
+                </nav>
+            </div>
+        </div>
+
+        <p class="copy">Derechos Reservados</p>
+
+    </footer>
+    
+</body>
+</html>
